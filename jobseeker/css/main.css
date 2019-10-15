@@ -1,0 +1,19 @@
+#divToShowMsg a{
+
+border-top: 2px solid #eee!important;
+
+}
+#divToShowMsg ul li a:hover{
+	
+}
+
+
+
+#divToShowMsg{
+	
+}
+a.dropdown-item.seeAllSingle {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #bcbdb7;
+}

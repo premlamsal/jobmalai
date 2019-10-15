@@ -1,0 +1,208 @@
+.jobSalaryPara{
+  color: black;
+}
+.employerLogo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.empLogoDiv {
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 25px;
+}
+.jobSalaryPara ul li {
+
+}
+.jobSalaryPara ul {
+  list-style: none;
+  padding: 0;
+ margin: 0;
+}
+
+.customCard{
+  margin-bottom: 2.1em;
+  /* width: 13.5em; */
+  background: #fff;
+  border: 1px solid #3f51b57a;
+  padding-top: 0px;
+  text-align: center;
+}
+body{
+  background: #f2f2f2;
+}
+.carCard{
+  margin-bottom: 1.6em;
+  /* width: 13.5em; */
+  background: #fff;
+  text-align: center;
+  padding-top: 21px;
+  overflow: hidden;
+  height: 77px;
+}
+.custom-card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.25rem;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.customCard:hover{
+    box-shadow: 1px 5px 17px -6px black;
+}
+.EmployersCard{
+  text-align: center;
+  margin-bottom: 1.6em;
+  padding-top: 1em;
+}
+.EmployersCard img{
+  width:auto;height:200px; border-radius: 50%;
+}
+.EmployersCardBody{
+  padding:0px;
+}
+.card-img-top {
+    padding: 0px 25px 0px 25px;
+}
+.jobActions{
+  margin-bottom: 10px;
+  padding-bottom:  20px;
+}
+.jumbotron {
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+.customCard .card-title {
+    margin-bottom: .75rem;
+    background: #3F51B5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+#pagenotfound {
+  position: relative;
+  height: 100vh;
+}
+
+#pagenotfound .pagenotfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.pagenotfound {
+  max-width: 560px;
+  width: 100%;
+  padding-left: 160px;
+  line-height: 1.1;
+}
+
+.pagenotfound .pagenotfound-404 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  background-image: url('../img/emoji.png');
+  background-size: cover;
+}
+
+.pagenotfound .pagenotfound-404:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(2.4);
+      -ms-transform: scale(2.4);
+          transform: scale(2.4);
+  border-radius: 50%;
+  background-color: #f2f5f8;
+  z-index: -1;
+}
+
+.pagenotfound h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #151723;
+  text-transform: uppercase;
+}
+
+.pagenotfound h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #151723;
+}
+
+.pagenotfound p {
+  font-family: 'Nunito', sans-serif;
+  color: #999fa5;
+  font-weight: 400;
+}
+
+.pagenotfound a {
+  font-family: 'Nunito', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #388dbc;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagenotfound .pagenotfound-404 {
+    width: 110px;
+    height: 110px;
+  }
+  .pagenotfound {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 110px;
+  }
+.EmployersCard img {
+    width: auto;
+    height: 450px;
+    border-radius: 50%;
+}
+
+}
+
+
+.divShowJob {
+    background: #fff;
+    border: 1px solid #eee;
+    padding-left: 2em;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #3f51b5;
+    border-color: #0c4279;
+}
+.btn-primary {
+    color: #3f51b5;
+    background-color: #f8f9fa;
+    border-color: #0062cc;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+     color: #fff;
+    background-color: #3f51b5;
+    border-color: #0c4279;
+}
